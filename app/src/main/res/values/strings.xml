@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">View Pager Gallery</string>
+    <string name="populationlabel">Population Label : </string>
+    <string name="ranklabel">Rank : </string>
+    <string name="countrylabel">Country label : </string>
+</resources>
