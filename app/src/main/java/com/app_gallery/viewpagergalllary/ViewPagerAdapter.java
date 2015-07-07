@@ -56,10 +56,10 @@ public class ViewPagerAdapter extends PagerAdapter
         iv_flag = (ImageView) itemView.findViewById(R.id.flag);
 
         // Capture position and set to the values of the views
-        tv_rank.setText(data_list_to_show.get(position).get_rank());
-        tv_country_name.setText(data_list_to_show.get(position).get_country());
-        tv_population.setText(data_list_to_show.get(position).get_population());
-        iv_flag.setImageResource(data_list_to_show.get(position).get_flag());
+        tv_rank.setText(String.valueOf(data_list_to_show.get(position).get_rank()));            //setting int to text value - so convertion needed
+        tv_country_name.setText(    data_list_to_show.get(position).get_country());
+        tv_population.setText(      data_list_to_show.get(position).get_population());
+        iv_flag.setImageResource(   data_list_to_show.get(position).get_flag());
 
         // Add viewpager_item.xml to ViewPager
         ((ViewPager) container).addView(itemView);

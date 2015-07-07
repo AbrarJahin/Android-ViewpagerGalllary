@@ -3,12 +3,12 @@ package com.app_gallery.viewpagergalllary;
 
 public class Model_Country
 {
-    private String  rank;
+    private int     rank;
     private String  country;
     private String  population;
     private int     flag;
 
-    public String   get_rank()
+    public int   get_rank()
     {
         return rank;
     }
@@ -28,7 +28,7 @@ public class Model_Country
         return flag;
     }
 
-    public void set_rank(String to_save)
+    public void set_rank(int to_save)
     {
         rank=to_save;
     }

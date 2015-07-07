@@ -34,12 +34,12 @@ public class MainActivity extends Activity
     private void Store_Data()                   //Stroing data in data to show list of used Model
     {
         ////////////////////////////////////////////////////// storing 10 random data- this should come from any database
-        String[] rank;
+        int[] rank;
         String[] country;
         String[] population;
         int[] flag;
                 // Generate sample data
-        rank = new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
+        rank = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
         country = new String[] { "China", "India", "United States",
                 "Indonesia", "Brazil", "Pakistan", "Nigeria", "Bangladesh",
